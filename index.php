@@ -1,0 +1,1 @@
+<?php   include("config.php");   include("functions.php");?> <form method="POST"><input type="text" name="betaCode" maxlength="6"/><input type="submit" value="Go" name="checkCodeBox"/></form><?php if (isset($_POST['checkCodeBox'])) checkCode(); ?> 
